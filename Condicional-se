@@ -1,0 +1,15 @@
+programa
+{
+	
+	funcao inicio(){
+		inteiro numero
+		escreva("Digite um numero: ")
+		leia(numero)
+
+		se (numero >=15){
+			escreva("O numero e positivo.\n")
+		}senao{
+			escreva("O numero e negativo.\n")
+		}
+	}
+}
