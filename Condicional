@@ -1,0 +1,21 @@
+programa
+{
+    funcao inicio()
+    {
+        inteiro anoNascimento, anoAtual, idade
+        
+        // Solicita o ano de nascimento do usuário
+        escreva("Digite o ano de nascimento: ")
+        leia(anoNascimento)
+        
+        // Solicita o ano atual
+        escreva("Digite o ano atual: ")
+        leia(anoAtual)
+        
+        // Calcula a idade
+        idade = anoAtual - anoNascimento
+        
+        // Exibe a idade
+        escreva("Sua idade é: ", idade, " anos\n")
+    }
+}
