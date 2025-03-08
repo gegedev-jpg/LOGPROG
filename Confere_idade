@@ -1,0 +1,17 @@
+programa
+{ //ação que inicia o programa
+	
+	funcao inicio()
+{ //inicia a execução do programa
+		inteiro idade //variável idade do tipo inteiro
+
+		escreva("Digite a idade: ") //texto para pedir que o usuário escreva a idade
+		leia(idade)//inserir a idade
+
+		se (idade>=18){//aqui começa a condição SE
+			escreva("É maior de idade. \n")//Texto para maior de idade
+		}senao//Aqui começa a condição SENAO / Ou termina a condição SE
+			escreva("Menor de idade. \n")//Texto para menor de idade
+		}
+				
+}
